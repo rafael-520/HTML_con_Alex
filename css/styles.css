@@ -1,8 +1,27 @@
-header{
-    background-color: rgba(24, 24, 26, 0.9);
-}     
-.navegacion, li a{
-    text-decoration: none;
-    color: white;
+.barra_nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
 
 }
+.navegacion ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display: flex;
+    
+}
+.navegacion ul a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(65, 65, 72);
+    padding: 10px;
+    border-radius: 5px;
+}
+.navegacion ul li a:hover {
+    background-color: #1a2770;
+}
+.navegacion ul li {
+    padding: 20px 5px;
+    margin: 5px;    
+} 
